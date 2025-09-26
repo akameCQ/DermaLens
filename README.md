@@ -41,9 +41,11 @@ Project Structure:
 - checkpoints/         # Model checkpoints
 - flow.py              # Model class (EfficientNetB0)
 - data_loader.py       # Dataset loading and preprocessing
-- dataprepare.py       # Data augmentation
+- data_prepare.py       # Data augmentation
 - results.py           # Prediction and result handling
-- mainfrom.py          # Launches the GUI
+- main.py              # For model training, does not launch the GUI
+- gui.py               # Main GUI application, launched by the user
+- Base.png             # Temporary preprocessed image created during prediction
 - requirements.txt     # Required libraries
 - README.md            # Project description
 
