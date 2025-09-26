@@ -7,7 +7,7 @@ import itertools
 
 
 def data():
-    df = pd.read_csv("D:\\indirilenler\\h\\HAM10000_metadata.csv")
+    df = pd.read_csv("HAM10000_metadata.csv")
 
     for i, row in df.iterrows():
         img_id = row["image_id"]+ ".jpg"
@@ -90,13 +90,13 @@ def generate_unique_variants(image):
     return variants
 
 if __name__ =="__main__":
-    akiec = data_increas("D:\\final proje pyton\\DermaLens\\Dataset\\akiec")
-    bcc = data_increas("D:\\final proje pyton\\DermaLens\\Dataset\\bcc")
-    bkl = data_increas("D:\\final proje pyton\\DermaLens\\Dataset\\bkl")
-    df = data_increas("D:\\final proje pyton\\DermaLens\\Dataset\\df")
-    mel = data_increas("D:\\final proje pyton\\DermaLens\\Dataset\\mel")
-    nv = data_increas("D:\\final proje pyton\\DermaLens\\Dataset\\nv")
-    vasc = data_increas("D:\\final proje pyton\\DermaLens\\Dataset\\vasc")
+    akiec = data_increas("Dataset\\akiec")
+    bcc = data_increas("Dataset\\bcc")
+    bkl = data_increas("Dataset\\bkl")
+    df = data_increas("Dataset\\df")
+    mel = data_increas("Dataset\\mel")
+    nv = data_increas("Dataset\\nv")
+    vasc = data_increas("Dataset\\vasc")
     
     
     
