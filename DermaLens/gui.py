@@ -24,6 +24,8 @@ class HomePage(QMainWindow):
         
         self.model_handler = Get_Result()
         self.model_handler.model_load()
+
+        self.setStyleSheet("QMainWindow { background-color: #1e1e2f; color: #ffffff; }")
         
         palette = self.widget.palette()
         palette.setColor(self.widget.backgroundRole(), QtGui.QColor("#1e1e2f"))  # koyu arka plan
