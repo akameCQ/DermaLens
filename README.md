@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Usage:
 - Run the GUI:
 ```
-python mainfrom.py
+python gui.py
 ```
 - Click the "Upload File" button to select an image.
 - Model predictions will appear in the table and class probabilities will be shown in the terminal.
