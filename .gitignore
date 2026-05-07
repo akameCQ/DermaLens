@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+.spyproject/
+
+# Project Specific (Large Datasets & Models)
+Dataset/
+checkpoints/
+*.h5
+*.keras
+*.hdf5
+*.pt
+*.pth
+
+# App Generated Files
+Base.png
+
+# OS Generated
+.DS_Store
+Thumbs.db
