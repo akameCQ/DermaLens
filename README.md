@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150" width="150" alt="DermaLens Logo">
   <h1>DermaLens</h1>
   <p><b>AI-Powered Skin Cancer Detection System</b></p>
 </div>
@@ -21,9 +20,7 @@ DermaLens is a state-of-the-art desktop application designed to assist in predic
 
 > *(Replace the placeholder image below with an actual screenshot of the DermaLens interface)*
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=DermaLens+Interface+Screenshot" alt="DermaLens Interface">
-</div>
+<img width="986" height="641" alt="Ekran görüntüsü 2026-05-07 193734" src="https://github.com/user-attachments/assets/e6271d0c-dce2-4c54-aee8-e8f30bfb9081" />
 
 ---
 
