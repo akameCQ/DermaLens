@@ -65,7 +65,7 @@ Start the graphical interface by running the following command in your terminal:
 
 ```bash
 python new_gui.py
-
+```
 ---
 
 <div align="center">
