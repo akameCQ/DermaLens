@@ -65,9 +65,6 @@ Start the graphical interface by running the following command in your terminal:
 
 ```bash
 python new_gui.py
-```
-
-Simply click **"Upload Image"**, select a dermoscopic image (PNG, JPG, JPEG), and let the AI perform its analysis!
 
 ---
 
